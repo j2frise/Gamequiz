@@ -3,11 +3,14 @@
 function createTag(tag, content=false, classe=false, id=false, before=false){
     var myTag = document.createElement(tag);
     if(content) {
-        var content = document.createTextNode(content);
-        myTag.appendChild(content)
+        var myContent = document.createTextNode(content);
+        myTag.appendChild(myContent)
     }
     if(classe) {
-        myTag.classList.add(classe);
+        var tabClass = classe.split(" ");
+        tabClass.forEach(item => {
+            myTag.classList.add(item);
+        });
     }
     if(id) {
         myTag.setAttribute.add("id",id);

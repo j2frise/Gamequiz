@@ -1,7 +1,7 @@
 {
-  "name": "portfolio-axel",
+  "name": "Gamequiz",
   "version": "1.0.0",
-  "description": "",
+  "description": "Jeu de devinette des mots à la suite",
   "main": "index.js",
   "scripts": {
     "dev": "parcel src/index.html",
@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/yo-gif12/portfolio-axel.git"
+    "url": "git+https://github.com/j2frise/Gamequiz.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/yo-gif12/portfolio-axel/issues"
+    "url": "https://github.com/j2frise/Gamequiz/issues"
   },
-  "homepage": "https://github.com/yo-gif12/portfolio-axel#readme",
+  "homepage": "https://github.com/j2frise/Gamequiz#readme",
   "devDependencies": {
     "@babel/cli": "^7.8.4",
     "@babel/core": "^7.8.7",
