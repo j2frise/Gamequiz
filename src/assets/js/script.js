@@ -15,10 +15,10 @@ function createTag(tag, content=false, classe=false, id=false, before=false){
 
     if(before) {
         var next = document.querySelector(before);
-        body.appendChildBefore(myTag,next);
+        document.body.insertBefore(myTag,next);
     }
     else{
-        body.appendChild(myTag);
+        document.body.appendChild(myTag);
     }
     return myTag;
 }
